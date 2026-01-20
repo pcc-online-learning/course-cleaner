@@ -2,7 +2,7 @@ const _cc = {
     version: "0.1",
     latest_css: "8.0",
     target_id: "app",
-    app_container: None,
+    app_container: null,
     table_cols: [
         {id: 'page', text: "Page + Module", note: ""},
         {id: 'update', text: "Up to Date?", note: ""},
