@@ -28,7 +28,6 @@ function build (container) {
     const h1 = document.createElement('h1')
     h1.textContent = "IDS Course Cleaner"
     const dev_email = document.createElement('a')
-    dev_email = document.createElement('a')
     dev_email.setAttribute('href', `mailto:${_cc.issues.email}`)
     dev_email.innerText = "email the developer"
     const docs_link = document.createElement('a')
