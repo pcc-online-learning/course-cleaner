@@ -35,19 +35,23 @@ function build (container) {
     docs_link.innerText = "documentation"
     const content = document.createElement('p')
     content.innerHTML = `Version: ${_cc.version}
-    <br><br>Latest CSS: <strong>${_cc.version}</strong>
+    <br><br>Latest CSS: <strong>${_cc.latest_css}</strong>
     <br><br>Report issues and follow changes at the ${docs_link.outerHTML}
     <br><br>Or ${dev_email.outerHTML}`
     const table = document.createElement('table')
-    const header = document.createElement('tr')
+    table.setAttribute('id', 'cssTable')
+    table.setAttribute('border', '1')
+    const header = document.createElement('thead')
     table.appendChild(header)
+    const row = document.createElement('tr')
+    header.appendChild(row)
     _cc.table_cols.forEach( item => {
-        let col = document.createElement('th')
+        let col = document.createElement('td')
         let label = document.createElement('strong')
         label.innerText = item.text
         col.innerHTML = `${label.outerHTML} ${item.note}`
         col.setAttribute('scope', 'col')
-        header.appendChild(col)
+        row.appendChild(col)
     })
     container.appendChild(h1);
     container.appendChild(content);
