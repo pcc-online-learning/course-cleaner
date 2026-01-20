@@ -43,7 +43,9 @@ function build (container) {
     table.appendChild(header)
     _cc.table_cols.forEach( item => {
         let col = document.createElement('th')
-        col.innerText = `<strong>${item.text}</strong> ${item.note}`
+        let label = document.createElement('strong')
+        label.innerText = item.text
+        col.innerHTML = `${item.text.outerHTML} ${item.note}`
         col.setAttribute('scope', 'col')
         header.appendChild(col)
     })
