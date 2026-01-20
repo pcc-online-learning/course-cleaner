@@ -1,0 +1,62 @@
+body {
+
+    }
+    #cssTable {
+      overflow-wrap: anywhere;
+      width: 100%;
+    }
+    table#cssTable * {
+        font-size: 15px;
+    }
+    #cssTable button {
+
+      min-height: 30px;
+    }
+    button, #cssTable button {
+     height: 50px;
+     font-weight: 500;
+      cursor: pointer;
+    }
+    button:disabled, #cssTable button:disabled {
+    cursor: default;
+    }
+    thead {
+     /* font-size: 12px;*/
+      text-align: center;
+    }
+    .copiable.cssRow {
+      display: none;
+    }
+    .cssRow td {
+      padding: 6px;
+      vertical-align: top;
+    }
+    .cssRow .status {
+      text-align: center;
+    }
+    .cssRow .status.n {
+      background: red;
+    }
+    .cssRow .status.y {
+      background: lime;
+    }
+    .cssRow .sheetList {
+
+    }
+    .cssRow .pageTitle {
+    
+    }
+    #cssTable ol, #cssTable ul {
+    padding-left: 35px;
+}
+    #cssTable li {
+      
+    }
+    .bad {
+      font-weight: bold;
+      color: red;
+    }
+    .warn {
+      font-weight: bold;
+      color: orange;
+    }

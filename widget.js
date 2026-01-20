@@ -18,6 +18,7 @@ const _cc = {
 window.addEventListener('DOMContentLoaded', (loadEvent) => {
     // build table for now
     _cc.app_container = document.getElementById(_cc.target_id);
+    build(_cc.app_container);
     
     // fetch the stuff
 })
