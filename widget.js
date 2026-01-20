@@ -45,7 +45,7 @@ function build (container) {
         let col = document.createElement('th')
         let label = document.createElement('strong')
         label.innerText = item.text
-        col.innerHTML = `${item.text.outerHTML} ${item.note}`
+        col.innerHTML = `${label.outerHTML} ${item.note}`
         col.setAttribute('scope', 'col')
         header.appendChild(col)
     })
