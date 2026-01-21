@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', (loadEvent) => {
 function build (container) {
     // a rather verbose demonstration, perhaps a better scheme?
     const h1 = document.createElement('h1')
-    h1.textContent = "IDS Course Cleaner"
+    h1.textContent = "IDS Course Cleaner EDIT"
     const dev_email = document.createElement('a')
     dev_email.setAttribute('href', `mailto:${_cc.issues.email}`)
     dev_email.innerText = "email the developer"
@@ -36,7 +36,7 @@ function build (container) {
     const content = document.createElement('p')
     content.innerHTML = `Version: ${_cc.version}
     <br><br>Latest CSS: <strong>${_cc.latest_css}</strong>
-    <br><br>Report issues and follow changes at the ${docs_link.outerHTML}
+    <br><br>REPORT issues and follow changes at the ${docs_link.outerHTML}
     <br><br>Or ${dev_email.outerHTML}`
     const table = document.createElement('table')
     table.setAttribute('id', 'cssTable')
