@@ -1,6 +1,26 @@
 body {
 
     }
+
+/* UI shell (migrated from inline styles in newest-old-version.html) */
+.cc-root .cc-title,
+.cc-root .cc-subtitle {
+  text-align: center;
+}
+
+.cc-root .cc-updateall-wrap {
+  text-align: center;
+}
+
+.cc-root #updateAll {
+  font-size: 19px;
+  width: 50%;
+}
+
+.cc-root col.cc-col-page { width: 33.0018%; }
+.cc-root col.cc-col-status { width: 16.5985%; }
+.cc-root col.cc-col-sheets { width: 24.5082%; }
+.cc-root col.cc-col-warnings { width: 25.8732%; }
     #cssTable {
       overflow-wrap: anywhere;
       width: 100%;
