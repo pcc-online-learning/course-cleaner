@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Concepts</title>
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/7.0/css/stylesheet.css">
+</head>
+<body>
+    <!-- Columbia-specific banner wrapper that needs transformation -->
+    <div class="intersect-wrapper bg-img-wrapper">
+        <h1>Advanced Concepts Title</h1>
+        <img src="https://example.com/banner.jpg" alt="Course Banner">
+        <p>Some text inside the wrapper</p>
+    </div>
+    
+    <div class="offset-md-2">
+        <p>This content has Columbia left indentation that should be removed.</p>
+    </div>
+    
+    <h2>TED Video Embed</h2>
+    <iframe src="https://embed.ted.com/talks/some_talk" width="560" height="315" frameborder="0"></iframe>
+    
+    <p>This page tests Columbia-specific transformations and TED embeds.</p>
+    
+    <div id="footer">
+        <p>Old-style footer with id instead of footer element.</p>
+    </div>
+</body>
+</html>

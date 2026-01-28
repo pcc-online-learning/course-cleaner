@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to Basics</title>
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/7.5/css/stylesheet.css">
+</head>
+<body>
+    <h1>Introduction to Basics</h1>
+    <p style="color: red; font-size: 20px;">This paragraph has inline styles - BAD!</p>
+    <div style="background: yellow;">This div also has inline styles.</div>
+    <p>This page is missing a footer element.</p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Overview</title>
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/8.0/css/stylesheet.css">
+</head>
+<body>
+    <h1>Course Overview</h1>
+    <p>This page already has the latest CSS version 8.0.</p>
+    <p>No updates needed - should show green status.</p>
+    
+    <footer>
+        <p>Course footer content here.</p>
+    </footer>
+</body>
+</html>

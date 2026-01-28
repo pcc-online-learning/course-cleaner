@@ -3,3 +3,5 @@
 /include/
 /lib/
 /pyvenv.cfg
+/TEST-EXPECTATIONS.md
+/.idea/

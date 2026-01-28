@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Exercises</title>
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/7.0/css/stylesheet.css">
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/8.0/css/stylesheet.css">
+</head>
+<body>
+    <h1>Practice Exercises</h1>
+    <p>This page has both old (7.0) and new (8.0) CSS.</p>
+    <p>It should be flagged for update to remove the old stylesheet.</p>
+    
+    <footer>
+        <p>Course footer content here.</p>
+    </footer>
+</body>
+</html>

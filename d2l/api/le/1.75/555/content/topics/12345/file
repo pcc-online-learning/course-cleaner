@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to the Course</title>
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/7.0/css/stylesheet.css">
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/6.5/css/old-styles.css">
+</head>
+<body>
+    <h1>Welcome to the Course</h1>
+    <p>This is a clean page with old CSS that needs updating.</p>
+    <p>It has multiple old stylesheets that should be replaced with version 8.0.</p>
+    
+    <footer>
+        <p>Course footer content here.</p>
+    </footer>
+</body>
+</html>

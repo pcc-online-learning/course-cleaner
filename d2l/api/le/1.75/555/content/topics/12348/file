@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Week 2 Overview</title>
+    <link rel="stylesheet" href="https://online.pcc.edu/shared/css/7.0/css/stylesheet.css">
+</head>
+<body>
+    <h1>Week 2 Overview</h1>
+    <p>This page contains Able Player videos.</p>
+    
+    <div class="ablep-wrapper">
+        <video id="video1" preload="auto" data-able-player>
+            <source type="video/mp4" src="path/to/video.mp4"/>
+            <track kind="captions" src="path/to/captions.vtt"/>
+        </video>
+    </div>
+    
+    <p>The analyzer should warn about Able Player content.</p>
+    
+    <footer>
+        <p>Course footer content here.</p>
+    </footer>
+</body>
+</html>

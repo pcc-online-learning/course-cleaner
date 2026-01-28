@@ -1,0 +1,89 @@
+{
+  "Modules": [
+    {
+      "Title": "Week 1: Introduction",
+      "Modules": [],
+      "Topics": [
+        {
+          "Identifier": "12345",
+          "Title": "Welcome to the Course",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/week1/welcome.html"
+        },
+        {
+          "Identifier": "12346",
+          "Title": "Course Overview",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/week1/overview.html"
+        }
+      ]
+    },
+    {
+      "Title": "Week 2: Getting Started",
+      "Modules": [
+        {
+          "Title": "Week 2.1: Basics",
+          "Modules": [],
+          "Topics": [
+            {
+              "Identifier": "12347",
+              "Title": "Introduction to Basics",
+              "TypeIdentifier": "File",
+              "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/week2/basics/intro.html"
+            }
+          ]
+        }
+      ],
+      "Topics": [
+        {
+          "Identifier": "12348",
+          "Title": "Week 2 Overview",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/week2/overview.html"
+        }
+      ]
+    },
+    {
+      "Title": "Week 3: Advanced Topics",
+      "Modules": [],
+      "Topics": [
+        {
+          "Identifier": "12349",
+          "Title": "Advanced Concepts",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/week3/advanced.html"
+        },
+        {
+          "Identifier": "12350",
+          "Title": "Combined Syllabus",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/syllabus.html"
+        },
+        {
+          "Identifier": "12351",
+          "Title": "Practice Exercises",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/week3/exercises.html"
+        }
+      ]
+    },
+    {
+      "Title": "Resources",
+      "Modules": [],
+      "Topics": [
+        {
+          "Identifier": "12352",
+          "Title": "External Resource Link",
+          "TypeIdentifier": "Link",
+          "Url": "https://example.com/resource"
+        },
+        {
+          "Identifier": "12353",
+          "Title": "Study Guide PDF",
+          "TypeIdentifier": "File",
+          "Url": "https://online.pcc.edu/d2l/le/content/enforced/123456-COURSE-2024/resources/guide.pdf"
+        }
+      ]
+    }
+  ]
+}
