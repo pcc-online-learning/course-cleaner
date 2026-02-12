@@ -4,7 +4,6 @@
 // - RowView factory holds row DOM + parsed HTML document
 
 const _cc = {
-    version: "1.0",
     target_id: "app",
 
     latest_css: "8.0",
@@ -13,11 +12,6 @@ const _cc = {
 
     blacklist: [],
     module_blacklist: [],
-
-    issues: {
-        email: "carmi.troncibell@pcc.edu",
-        docs: "https://docs.google.com/document/d/1bZ8H4uOdLKrC31RzP-pRQDa-7RQfTi-Mges6vfuvMaw/edit?tab=t.0#heading=h.1663rrt5qnn6"
-    },
 
     // Runtime state
     app_container: null,
@@ -32,7 +26,7 @@ const _cc = {
 
 const UI_TEMPLATE = `
   <div class="cc-root">
-    <h1 class="cc-title">IDS Course Cleaner</h1>
+    <h1 class="cc-title">IDS Course Cleaner 2.0</h1>
     <h2 class="cc-subtitle">CSS Bulk Tool</h2>
 
     <p class="cc-instructions-label">Instructions:</p>
@@ -42,7 +36,6 @@ const UI_TEMPLATE = `
     </ol>
 
     <p>The latest CSS version is <strong>${_cc.latest_css}</strong></p>
-    <p>View <a href="${_cc.issues.docs}" target="_blank" rel="noopener">the changelog</a>. Issues with the program? Let dev know at <a href="mailto:${_cc.issues.email}">${_cc.issues.email}</a>. Version ${_cc.version}</p>
 
     <p class="cc-updateall-wrap">
       <button disabled id="updateAll">Update All</button>
@@ -71,11 +64,8 @@ const UI_TEMPLATE = `
 window.addEventListener("DOMContentLoaded", () => {
     _cc.app_container = document.getElementById(_cc.target_id);
     if (!_cc.app_container) return;
-
     build(_cc.app_container);
     void startScanAndWireUI();
-
-    alert("testing tags");
 });
 
 function build(container) {
