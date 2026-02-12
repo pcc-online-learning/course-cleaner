@@ -75,7 +75,7 @@ window.addEventListener("DOMContentLoaded", () => {
     build(_cc.app_container);
     void startScanAndWireUI();
 
-    alert("testing testing");
+    alert("testing tags");
 });
 
 function build(container) {
